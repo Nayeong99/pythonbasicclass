@@ -5,3 +5,5 @@ print(orderbook)
 
 for k in orderbook:
     print(k)
+
+print(orderbook['payment_currency'])

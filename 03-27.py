@@ -17,7 +17,7 @@ class MyWindow(QMainWindow):
         mysignal.signal1.connect(self.signal1_emitted)
         mysignal.run()
 
-    @pyqtSlot()
+    @pyqtSlot()     # decorator. 없어도 상관은 없지만 있으면 편하다.
     def signall_emitted(self):
         print("signall emitted")
 

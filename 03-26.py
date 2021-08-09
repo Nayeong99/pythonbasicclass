@@ -5,7 +5,6 @@ from PyQt5 import uic
 import pykorbit
 
 
-
 form_class = uic.loadUiType("코빗 시세 조회기.ui")[0]
 
 
